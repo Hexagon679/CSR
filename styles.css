@@ -1,0 +1,126 @@
+body {
+    font-family: verdana, helvetica, sans;
+    font-size: 0.7em;
+    margin: auto;
+    width: 850px;
+    line-height: 125%;
+    height: 100%;
+    padding: 0;
+}
+
+/* header starts here */
+
+img{
+    border: 0;
+    padding: 0;
+    display: flex;
+}
+
+#topNav{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding: 0;
+}
+
+.menu{
+    margin: 0;
+    padding: 4px;
+    font-weight: bold;
+}
+.menu:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* body starts here*/
+
+.content {
+    padding: 25px;
+    border: 1px solid #999999;
+    border-top: 0;
+}
+.form {
+    clear: both;
+    border: 1px dashed #cccccc;
+    padding: 1em 1.5em 1.5em 1.5em;
+    margin-top: 20px;
+    background-color: transparent;
+    position: relative;
+    margin-top: 20px;
+    display: block;
+    background-color: #F7F7F7;
+}
+
+form {
+    text-transform: capitalize;
+    font-size: 120%;
+    font-weight: bold;
+    color: #4D4D4D;
+    position: absolute;
+    top: -0.6em;
+    left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: -15px;
+    background-color: transparent;
+}
+
+.inside{
+    clear: both;
+    border: 1px dashed #cccccc;
+    padding: 1em 1.5em 1.5em 1.5em;
+    margin-top: 20px;
+    background-color: transparent;
+    position: relative;
+    margin-top: 20px;
+    display: block;
+    background-color: #F7F7F7;
+}
+
+table {
+    border: 1px solid #DEDFDE;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr{
+    cursor: pointer;
+}
+
+tr:hover{
+    background-color: lightgrey;
+}
+
+td {
+    padding: 2px;
+    border: 0.1px solid #DEDFDE;
+    padding-left: 7px;
+}
+
+.button {
+    font-size: 90%;
+    background: url(/images/btnBkg.gif) repeat;
+    padding: 3px;
+    border: 1px solid #999999;
+    font-weight: bold;
+    float: middle;
+    vertical-align: middle;
+}
+
+/* footer starts here*/
+
+#footer {
+    clear: both;
+    border-top: 1px solid #000000;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.bottom-img{
+    margin: auto;
+}
